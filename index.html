@@ -5,20 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
 
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="image/Icon/Group 5.png" alt=""><span class="pl-2 text-white">Idea</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active pt-2">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item pt-2">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item pt-2">
+                            <a class="nav-link text-white" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#"><img src="image/Image/Ellipse.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="my-4">
+        <div class="container bg-white player-area p-4">
+            <h3 class="py-4 font-weight-bold text-primary">Top Player</h3>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 player d-flex align-items-center p-3">
+                    <img src="image/Image/Ellipse-1.png" alt="">
+                    <h4 class="pl-3">John Smith</h4>
+                </div>
+                <div class="col-md-4 col-sm-6 player d-flex align-items-center p-3">
+                    <img src="image/Image/Ellipse-2.png" alt="">
+                    <h4 class="pl-3">John Smith</h4>
+                </div>
+                <div class="col-md-4 col-sm-6 player d-flex align-items-center p-3">
+                    <img src="image/Image/Ellipse-3.png" alt="">
+                    <h4 class="pl-3">John Smith</h4>
+                </div>
+                <div class="col-md-4 col-sm-6 player d-flex align-items-center p-3">
+                    <img src="image/Image/Ellipse-4.png" alt="">
+                    <h4 class="pl-3">John Smith</h4>
+                </div>
+                <div class="col-md-4 col-sm-6 player d-flex align-items-center p-3">
+                    <img src="image/Image/Ellipse-5.png" alt="">
+                    <h4 class="pl-3">John Smith</h4>
+                </div>
+                <div class="col-md-4 col-sm-6 player d-flex align-items-center p-3">
+                    <img src="image/Image/Ellipse-2.png" alt="">
+                    <h4 class="pl-3">John Smith</h4>
+                </div>
+            </div>
+
+            <hr>
+
+            <h3 class="py-4 font-weight-bold text-primary">Top Blog</h3>
+            <div class="row">
+                <div class=" col-md-6 col-12 d-flex align-items-center mask p-3">
+                    <img src="image/Image/Mask Group.png" alt="">
+                    <h4 class="pl-3">13 of My Favorite UI/UX Goodies<br> By <a href="#">Danny Sapio</a></h4>
+                </div>
+                <div class=" col-md-6 col-12 d-flex align-items-center mask p-3">
+                    <img src="image/Image/Mask Group-1.png" alt="">
+                    <h4 class="pl-3">UI cheat sheet:  list vs grids <br> By <a href="#">Tess Gadd</a></h4>
+                </div>
+                <div class=" col-md-6 col-12 d-flex align-items-center mask p-3">
+                    <img src="image/Image/Mask Group-2.png" alt="">
+                    <h4 class="pl-3">7 typography tips  for interface design<br> By <a href="#">Jeremiah Lam</a></h4>
+                </div>
+                <div class=" col-md-6 col-12 d-flex align-items-center mask p-3">
+                    <img src="image/Image/Mask Group.png" alt="">
+                    <h4 class="pl-3">Your logo is  copied<br> By <a href="#">Ferdinand Vogler</a></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <div class="container p-4 bg-white course-area">
+            <h3 class="py-4 font-weight-bold text-primary">Lates Course</h3>
+            <div class="row">
+                <div class="col-md-4 col-12 course p-3">
+                    <img src="image/Image/Mask Group-4.png" alt="">
+                    <h4 class="pt-3 ">React -The Complete JavaScript Powerpoint 2020</h4>
+                    <a href="#">Reed Krakoff.</a>
+                    <div class="pt-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span>4.5</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 course p-3">
+                    <img src="image/Image/Mask Group-3.png" alt="">
+                    <h4 class="pt-3 ">Powerpoint 2020 MasterPowerpoint Cour</h4>
+                    <a href="#">Reed Krakoff.</a>
+                    <div class="pt-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span>4.5</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 course p-3">
+                    <img src="image/Image/Group 2.png" alt="">
+                    <h4 class="pt-3 ">The Complete JavaScript Powerpoint 2020</h4>
+                    <a href="#">Reed Krakoff.</a>
+                    <div class="pt-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span>4.5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
     
-
-
-
-
-
-
-
 
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

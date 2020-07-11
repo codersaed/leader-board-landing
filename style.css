@@ -1,0 +1,25 @@
+.navbar img {
+    width: 40px;
+}
+
+body {
+    background-color: #ecf0f1
+}
+.player-area {
+    border-radius: 10px;
+}
+.player img {
+    width: 40px;
+}
+.mask img {
+    width: 200px;
+}
+.course-area {
+    border-radius: 10px;
+}
+.course img{
+    width: 215px;
+}
+.checked {
+    color: orange;
+}
