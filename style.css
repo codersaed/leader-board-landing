@@ -18,8 +18,11 @@ body {
     border-radius: 10px;
 }
 .course img{
-    width: 215px;
+    width: 220px;
 }
 .checked {
     color: orange;
+}
+.course {
+    box-shadow: 8px 8px 10px gainsboro;
 }
